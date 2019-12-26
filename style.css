@@ -1,0 +1,32 @@
+p {
+  font-size: 20px;
+  display: inline-block;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+#titlebox {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 14px;
+  background-color: rgba(105, 105, 105, 0.6);
+  color: white;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
